@@ -1,0 +1,104 @@
+@media only screen and (max-width:800px) {
+    .ham-menu img{
+        display: block;
+    }
+    .menu-bar{
+        position: absolute;
+        top: 90px;
+        background-color: rgb(24, 24, 24);
+        padding-right: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+        transform: translateX(-150%);
+        transition: transform ease 0.5s;
+    }
+    .appear-menu{
+        transform: translateX(0%);
+    }
+    .menu-bar ul li{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .hero{
+        width: 100%;
+        margin: auto;
+    }
+    .hero h1, .hero p{
+        text-align: center;
+    }
+    .hero a{
+        display: block;
+        text-align: center;
+    }
+    .logo{
+        margin: auto;
+    }
+    .row{
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .col-2{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .social-icons{
+        justify-content: center;
+    }
+    .about-row:nth-child(3){
+        flex-direction: column-reverse;
+    }
+    .row-1{
+        flex-direction: column;
+    }
+    .img-outline, .img-outline-2{
+        display: none;
+    }
+    .review-1{
+        margin-bottom: 70px;
+    }
+    .hero h1{
+        font-size: 38px;
+    }
+    .hero p{
+        font-size: 11px;
+    }
+    #services h1{
+        font-size: 38px;
+    }
+    #services a{
+        width: 100%;
+    }
+    #aboutus h1{
+        font-size: 38px;
+    }
+    .col-2 h2{
+        font-size: 30px;
+    }
+    .col-2 p{
+        font-size: 11px;
+    }
+    .shop-img h2{
+        font-size: 30px;
+    }
+    .shop-img-1, .shop-img-2, .shop-img-3{
+        height: 80vh;
+    }
+    .address{
+        margin: 20px 0 0 0;
+    }
+    .copyright p{
+        font-size: 12px;
+    }
+    .promo-img{
+        display: block;
+        margin: auto;
+    }
+    .col-1{
+        margin-top: 40px;
+    }
+    .form{
+        width: 100%;
+    }
+}
